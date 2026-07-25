@@ -165,6 +165,6 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-Made with ❤️ by [Shreyansh](https://github.com/syncshreyansh)
+Made by [Shreyansh](https://github.com/syncshreyansh)
 
 </div>
