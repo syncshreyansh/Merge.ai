@@ -224,7 +224,8 @@ export const resumeReview = async (req, res) => {
     const dataBuffer = fs.readFileSync(resume.path);
     const parser = new PDFParse({ verbosity: 0, data: dataBuffer });
     await parser.load();
-    const pdfData = { text: await parser.getText() };
+    const parsedText = await parser.getText();
+    const pdfData = { text: parsedText.text };
 
     const prompt = `Review the following resume and provide the constructive feedback on it strengths, weaknesses and areas for improvement. Resume Content:\n\n${pdfData.text}`;
 
