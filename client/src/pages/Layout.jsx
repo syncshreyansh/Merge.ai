@@ -16,7 +16,7 @@ const Layout = () => {
         <img
           src={logo}
           alt="logo"
-          className="h-20 w-20 cursor-pointer"
+          className="w-24 sm:w-32 cursor-pointer"
           onClick={() => navigate("/")}
         />
         {sidebar ? (
