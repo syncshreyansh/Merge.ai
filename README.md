@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ Merge.ai
+#  Merge.ai
 
 ### One AI workspace for everything you create — articles, images, and more.
 
