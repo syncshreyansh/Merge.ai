@@ -12,11 +12,11 @@ const Layout = () => {
 
   return user ? (
     <div className="flex flex-col items-start justify-start h-screen">
-      <nav className="w-full px-8 min-h-14 flex items-center justify-between border-b border-gray-200">
+      <nav className="w-full px-4 sm:px-8 min-h-12 sm:min-h-14 flex items-center justify-between border-b border-gray-200">
         <img
           src={logo}
           alt="logo"
-          className="w-24 sm:w-32 cursor-pointer"
+          className="w-12 sm:w-20 cursor-pointer"
           onClick={() => navigate("/")}
         />
         {sidebar ? (
